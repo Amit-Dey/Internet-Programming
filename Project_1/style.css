@@ -1,0 +1,287 @@
+ /* Author:Amit Dey
+ID: C201097  */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  /* padding: 0 5rem; */
+}
+
+
+.headerTop {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d3c88;
+  padding: 0.5rem 6rem;
+  align-items: center;
+}
+
+.headerTopLeft {
+  display: flex;
+  font-weight: bold;
+  padding: 0%;
+  margin: 0;
+  /* padding-bottom: 0.5rem; */
+}
+
+.headerTopLeft>div>button {
+  /* margin-top: 1rem; */
+  padding: 0.3rem 0.5rem;
+  background-color: #04816e;
+  color: white;
+  border-radius: 0.3rem;
+  border: 0;
+}
+
+.headerTopLeft>div {
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.headerTopRight {
+  display: flex;
+  font-weight: bold;
+
+}
+
+.headerTopRight>div {
+  padding-left: 1rem;
+  display: flex;
+
+}
+
+.news {
+  display: flex;
+  padding: 0.5rem 0;
+}
+
+.news>div {
+  display: flex;
+  padding: 0 0.5rem;
+}
+
+.news>div>h5 {
+  margin-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.news>div>button {
+  padding: 0.3rem 0.5rem;
+  background-color: #2d3c88;
+  color: white;
+  border-radius: 0.3rem;
+  border: 0;
+}
+
+
+.marquee {
+  direction: ltr;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.logo {
+  width: 90%;
+  margin-left: 5%;
+
+}
+
+.headerBottom {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #2d3c88;
+  padding: 0.5rem 6rem;
+  align-items: left;
+  margin-top: 0.2rem;
+}
+
+.coverImg {
+  margin: 0;
+  padding: 0;
+}
+
+.cover {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  object-position: 0rem -28rem;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  position: absolute;
+}
+
+.findContainer {
+  position: relative;
+  margin: 0;
+  margin-top: 38.8rem;
+  height: 15rem;
+  background-color: #2d3c88;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding-bottom: 3rem;
+}
+
+.findDep {
+  margin: 0;
+  padding: 0;
+}
+
+.findDep>select {
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 0.4rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.findDep>p {
+  padding-bottom: 1rem;
+}
+
+.findDep>hr {
+  margin-bottom: 3rem;
+}
+
+.findDep>button {
+  height: 2.6rem;
+  width: 13rem;
+  color: white;
+  background-color: #394eb6;
+  border: 0;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.findPro {
+  margin: 0;
+  padding: 0;
+}
+
+.findPro>select {
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 0.4rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.findPro>p {
+  padding-bottom: 1rem;
+}
+
+.findPro>hr {
+  margin-bottom: 3rem;
+}
+
+.findPro>button {
+  height: 2.6rem;
+  width: 13rem;
+  color: white;
+  background-color: #394eb6;
+  border: 0;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.welcome {
+  text-align: center;
+  margin: 0 20rem;
+  margin-top: 3rem;
+}
+
+.welcome>h1 {
+  color: #24306d;
+}
+
+.welcome>p {
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.welcome>button {
+  color: white;
+  background-color: #2d3c88;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.4rem;
+  align-items: left;
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+
+
+
+
+
+
+.footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: -0.3rem;
+}
+
+/* DropDown */
+.dropbtn {
+  background-color: #a1a2a26e;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.85rem;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  top: 0rem;
+  background: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 2.3rem;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
