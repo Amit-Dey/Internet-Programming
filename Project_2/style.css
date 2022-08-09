@@ -1,0 +1,142 @@
+:root {
+    --bg: #DEFCF9;
+    --con_bg: #FFFFFF;
+    --btn_bg: #F0F0F0;
+    --equal_bg: #0047FF;
+    --text_color: #151515;
+    --Cbtn_bg: #FF5959;
+    --img_Url: url("./images/light_icon.svg");
+}
+
+*,
+.div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.flx {
+    margin-top: 3.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.switch {
+    width: 3.5rem;
+    align-self: flex-start;
+    content: var(--img_Url);
+    align-self: center;
+}
+
+.calculatormove {
+    cursor: grab;
+}
+
+.calculatormove:active {
+    cursor: grabbing;
+}
+
+.container {
+    position: absolute;
+    background-color: var(--con_bg);
+    width: 23rem;
+    height: 52.75rem;
+    border-radius: 2.5rem;
+    padding: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.res {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.text {
+    border: 0;
+    width: 24rem;
+    height: 2rem;
+    color: var(--text_color);
+    text-align: right;
+    font-size: 2rem;
+    background-color: var(--con_bg);
+}
+
+.result {
+    border: 0;
+    width: 24rem;
+    height: 4rem;
+    margin-top: 5rem;
+    color: var(--equal_bg);
+    text-align: right;
+    font-size: 3.5rem;
+    background-color: var(--con_bg);
+
+}
+
+
+
+.switch:hover {
+    cursor: pointer;
+}
+
+
+.hr {
+    width: 100%;
+    height: 0;
+    border: 1px solid #827A7A;
+    margin-top: 1.563rem;
+    margin-bottom: 0.313rem;
+}
+
+.row {
+    border-radius: 0.563rem;
+    margin-top: 1.25rem;
+    justify-content: space-between;
+}
+
+.num {
+    border-radius: 0.563rem;
+    width: 4.563rem;
+    height: 4.688rem;
+    font-size: 2rem;
+    margin-right: 1.25rem;
+    border: 0;
+    background-color: var(--btn_bg);
+    color: var(--text_color);
+}
+
+.mr {
+    margin-right: 0;
+}
+
+.clear {
+    background-color: var(--Cbtn_bg);
+    color: var(--con_bg);
+}
+
+.blue {
+    color: var(--equal_bg);
+}
+
+.equal {
+    background-color: var(--equal_bg);
+    color: var(--con_bg);
+}
+
+.num:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
