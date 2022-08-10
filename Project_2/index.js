@@ -3,7 +3,9 @@ function calculate() {
     document.getElementById('result').value = save;
 }
 
-
+function erase() {
+    document.getElementById('text').value = document.getElementById('text').value.slice(0 , -1);
+}
 
 
 var r = document.querySelector(':root');

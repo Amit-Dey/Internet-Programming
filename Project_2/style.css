@@ -1,5 +1,5 @@
 :root {
-    --bg: #DEFCF9;
+    --bg: #DEFCF9;  
     --con_bg: #FFFFFF;
     --btn_bg: #F0F0F0;
     --equal_bg: #0047FF;
@@ -117,6 +117,12 @@ body {
     background-color: var(--btn_bg);
     color: var(--text_color);
 }
+
+.clr{
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: transparent;
+}   
 
 .mr {
     margin-right: 0;
