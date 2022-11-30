@@ -1,0 +1,222 @@
+ /* Author:Amit Dey
+ID: C201097  */
+
+
+
+ * {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ .headerTop {
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   background-color: #2d3c88;
+   padding: 0.5rem 6rem;
+   align-items: center;
+ }
+
+ .headerTopLeft {
+   display: flex;
+   font-weight: bold;
+   padding: 0%;
+   margin: 0;
+   /* padding-bottom: 0.5rem; */
+ }
+
+ .headerTopLeft>div>button {
+   /* margin-top: 1rem; */
+   padding: 0.3rem 0.5rem;
+   background-color: #04816e;
+   color: white;
+   border-radius: 0.3rem;
+   border: 0;
+ }
+
+ .headerTopLeft>div {
+   padding-right: 1rem;
+   display: flex;
+   align-items: center;
+ }
+
+ .headerTopRight {
+   display: flex;
+   font-weight: bold;
+
+ }
+
+ .headerTopRight>div {
+   padding-left: 1rem;
+   display: flex;
+
+ }
+
+ .news {
+   display: flex;
+   padding: 0.5rem 0;
+ }
+
+ .news>div {
+   display: flex;
+   padding: 0 0.5rem;
+ }
+
+ .news>div>h5 {
+   margin-top: 0.5rem;
+   padding-right: 0.5rem;
+ }
+
+ .news>div>button {
+   padding: 0.3rem 0.5rem;
+   background-color: #2d3c88;
+   color: white;
+   border-radius: 0.3rem;
+   border: 0;
+ }
+
+
+ .marquee {
+   direction: ltr;
+   overflow: hidden;
+   white-space: nowrap;
+ }
+
+ .logo {
+   width: 90%;
+   margin-left: 5%;
+
+ }
+
+ .headerBottom {
+   color: white;
+   display: flex;
+   justify-content: flex-start;
+   background-color: #2d3c88;
+   padding: 0.5rem 6rem;
+   align-items: left;
+   margin-top: 0.2rem;
+ }
+
+
+
+
+ .footer {
+   margin: 0;
+   margin-top: 5rem;
+   padding: 0;
+   width: 100%;
+   margin-bottom: -0.3rem;
+ }
+
+ /* DropDown */
+ .dropbtn {
+   background-color: #a1a2a26e;
+   color: white;
+   padding: 0.5rem 0.8rem;
+   font-size: 0.85rem;
+   border: none;
+ }
+
+ .dropdown {
+   position: relative;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   top: 0rem;
+   background: none;
+ }
+
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   z-index: 1;
+   top: 2.3rem;
+ }
+
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+
+ .dropdown-content a:hover {
+   background-color: #ddd;
+ }
+
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+
+ .dropdown:hover .dropbtn {
+   background-color: #3e8e41;
+ }
+
+ h3 {
+   font-family: Calibri;
+   font-size: 3rem;
+   font-weight: bold;
+   color: rgb(0, 29, 65);
+   text-align: center;
+   text-decoration: underline;
+   padding: 5rem 0;
+ }
+
+ table {
+   font-family: Calibri;
+   color: rgb(7, 16, 31);
+   font-size: 11pt;
+   font-style: normal;
+   font-weight: bold;
+   border-collapse: collapse;
+ }
+
+ table.inner {
+   border: 0px
+ }
+
+ .form {
+   margin: auto;
+   width: 50%;
+   padding: 5rem 1rem;
+   background-color: rgb(210, 233, 253);
+ }
+
+ table {
+   margin: auto;
+   border: 0;
+   padding: 5rem;
+ }
+
+ table>th,
+ td {
+   padding: 0.5rem;
+ }
+
+ table>tr {
+   padding: 1rem;
+ }
+
+ .inp {
+   width: 8vw;
+   height: 1.5vw;
+   border-radius: 4px;
+   border: 0;
+   padding-left: 0.2rem;
+ }
+
+ .btn {
+   padding: 0.5rem 1rem;
+   background-color: #2d3c88;
+   color: white;
+   border-radius: 0.3rem;
+   border: 0;
+   margin: 0rem 1rem;
+   margin-top: 2rem;
+ }
